@@ -60,5 +60,11 @@ Cons of ArgumentCaptor:
 
 * Sometimes **more** boilerplate code then verify statements (check single value example above)
 
+## Knowledge
+
+* Official Argument Captor Documentation: https://site.mockito.org/javadoc/current/org/mockito/ArgumentCaptor.html
+* Argument Captor is meant to be used with ```verify(...)``` statements, not ```when(...)``` statements (mentioned in official documentation above)
+
+
 
 
