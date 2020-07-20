@@ -1,4 +1,4 @@
-# ArgumentCaptor-Example
+# ArgumentCaptor Example
 ArgumentCaptor - Example and Quick Tutorial
 
 ## Quick Code (Verify -to-> ArgumentCaptor)
