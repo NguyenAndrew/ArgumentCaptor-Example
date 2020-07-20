@@ -1,7 +1,7 @@
 # ArgumentCaptor-Example
 ArgumentCaptor - Example and Quick Tutorial
 
-# Quick Code (Verify -to-> ArgumentCaptor)
+## Quick Code (Verify -to-> ArgumentCaptor)
 
 Single Verify and ArgumentCaptor, single Value 
 ```
@@ -48,4 +48,17 @@ void argumentCaptorAllValues() {
     assertEquals(depositedMoney.getAllValues(), Arrays.asList(5, 10, 25, 50, 100));
 }
 ```
+
+## Pros - and - Cons
+
+Pros of ArgumentCaptor:
+
+* Sometimes **less** boilerplate code then verify statements (check all values example above)
+* Sometimes clearer tests using assertions
+
+Cons of ArgumentCaptor:
+
+* Sometimes **more** boilerplate code then verify statements (check single value example above)
+
+
 
